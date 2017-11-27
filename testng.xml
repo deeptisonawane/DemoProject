@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  <test name="Test 1">
+      <parameter name="browser name" value="chrome"></parameter>
+    <classes>
+      <class name="poject1.Demo1.TrackoMain"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test 2">
+       <parameter name="browser name" value="firefox"></parameter>
+    <classes>
+      <class name="poject1.Demo1.TrackoMain"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
