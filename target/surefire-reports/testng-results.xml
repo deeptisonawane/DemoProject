@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="67817" started-at="2017-11-27T04:09:07Z" finished-at="2017-11-27T04:10:15Z">
+  <suite name="Suite" duration-ms="72104" started-at="2017-11-28T03:39:38Z" finished-at="2017-11-28T03:40:50Z">
     <groups>
     </groups>
-    <test name="Test 1" duration-ms="45245" started-at="2017-11-27T04:09:07Z" finished-at="2017-11-27T04:09:52Z">
+    <test name="Test 1" duration-ms="34784" started-at="2017-11-28T03:39:38Z" finished-at="2017-11-28T03:40:13Z">
       <class name="poject1.Demo1.TrackoMain">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:poject1.Demo1.TrackoMain@15975490]" name="setup" is-config="true" duration-ms="20154" started-at="2017-11-27T09:39:07Z" finished-at="2017-11-27T09:39:27Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:poject1.Demo1.TrackoMain@15975490]" name="setup" is-config="true" duration-ms="29389" started-at="2017-11-28T09:09:38Z" finished-at="2017-11-28T09:10:08Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:poject1.Demo1.TrackoMain@15975490]" name="login" duration-ms="23091" started-at="2017-11-27T09:39:28Z" finished-at="2017-11-27T09:39:51Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:poject1.Demo1.TrackoMain@15975490]" name="login" duration-ms="4508" started-at="2017-11-28T09:10:08Z" finished-at="2017-11-28T09:10:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tesrdown()[pri:0, instance:poject1.Demo1.TrackoMain@15975490]" name="tesrdown" is-config="true" duration-ms="1397" started-at="2017-11-27T09:39:51Z" finished-at="2017-11-27T09:39:52Z">
+        <test-method status="PASS" signature="tesrdown()[pri:0, instance:poject1.Demo1.TrackoMain@15975490]" name="tesrdown" is-config="true" duration-ms="747" started-at="2017-11-28T09:10:12Z" finished-at="2017-11-28T09:10:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tesrdown -->
       </class> <!-- poject1.Demo1.TrackoMain -->
     </test> <!-- Test 1 -->
-    <test name="Test 2" duration-ms="67816" started-at="2017-11-27T04:09:07Z" finished-at="2017-11-27T04:10:15Z">
+    <test name="Test 2" duration-ms="72104" started-at="2017-11-28T03:39:38Z" finished-at="2017-11-28T03:40:50Z">
       <class name="poject1.Demo1.TrackoMain">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:poject1.Demo1.TrackoMain@3dd3bcd]" name="setup" is-config="true" duration-ms="61004" started-at="2017-11-27T09:39:07Z" finished-at="2017-11-27T09:40:08Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:poject1.Demo1.TrackoMain@3dd3bcd]" name="setup" is-config="true" duration-ms="66924" started-at="2017-11-28T09:09:38Z" finished-at="2017-11-28T09:10:45Z">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:poject1.Demo1.TrackoMain@3dd3bcd]" name="login" duration-ms="4508" started-at="2017-11-27T09:40:08Z" finished-at="2017-11-27T09:40:12Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:poject1.Demo1.TrackoMain@3dd3bcd]" name="login" duration-ms="3478" started-at="2017-11-28T09:10:45Z" finished-at="2017-11-28T09:10:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tesrdown()[pri:0, instance:poject1.Demo1.TrackoMain@3dd3bcd]" name="tesrdown" is-config="true" duration-ms="2298" started-at="2017-11-27T09:40:12Z" finished-at="2017-11-27T09:40:15Z">
+        <test-method status="PASS" signature="tesrdown()[pri:0, instance:poject1.Demo1.TrackoMain@3dd3bcd]" name="tesrdown" is-config="true" duration-ms="1689" started-at="2017-11-28T09:10:49Z" finished-at="2017-11-28T09:10:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tesrdown -->

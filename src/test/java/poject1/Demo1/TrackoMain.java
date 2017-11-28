@@ -41,29 +41,14 @@ WebDriver driver;
 			System.out.println("No browser specified");
 		}
 		driver.get("https://tracko.co.in/");
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
-
-
-	
 	
 	@Test
 	public void login()
 	{
-		WebElement signup= driver.findElement(By.xpath("//a [text()='Sign Up Free']"));
-		signup.click();
-		
-		WebElement name = driver.findElement(By.id("name"));
-		name.sendKeys("priyanka");
-		
-		WebElement email = driver.findElement(By.id("email"));
-		email.sendKeys("abc@gmail.com");
-		
-		WebElement mobile = driver.findElement(By.id("mobile"));
-		mobile.sendKeys("9403587347");
-		
-		WebElement button = driver.findElement(By.id("sub_btn_signup"));
-		button.click();
+		SignUp s = new SignUp(driver);
+		s.SignUp();
 	}
 	
 	@AfterTest
