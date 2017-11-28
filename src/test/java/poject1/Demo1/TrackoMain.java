@@ -41,7 +41,7 @@ WebDriver driver;
 			System.out.println("No browser specified");
 		}
 		driver.get("https://tracko.co.in/");
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
 	@Test
